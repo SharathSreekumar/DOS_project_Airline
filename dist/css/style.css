@@ -1,0 +1,129 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#intro
+{
+    background:url(../images/airPlaneTakeOff.jpg) no-repeat;
+    height:95%;
+    width:100%;
+    -webkit-background-size: cover; /*web kit*/
+    -moz-background-size: cover;    /*mozilla */
+    -o-background-size: cover;      /*opera*/
+    background-size:cover;
+    position:relative;
+    overflow: hidden;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+    
+}
+
+#intro h1
+{
+    text-align: center;
+    color: white;
+    /*font-family: 'French Script','Monotype Corsiva','Brush Script MT','Lota','Montserrat','Trebuchet MS','sans-serif';*/
+    font-family: 'Lota','Montserrat','Trebuchet MS','sans-serif';
+    font-size: 45px;
+    position: relative;
+}
+
+.jumboBack{
+    width: 45%;
+    background-color: rgba(255, 127, 80, 0.40);
+	/*background-color: #ffffff;*/
+	/*opacity:0.3;*/
+}
+
+.jumboBack label{
+    font-size: 16px;
+}
+
+.table.no-border tr td, .table.no-border tr th {
+  border-width: 0;
+}
+
+.foo p
+{
+    color:#2F4F4F;
+    font-size:14px;
+    font-family: 'Montserrat','Trebuchet MS','sans-serif';
+    font-weight:bold;
+    text-align:center;
+}
+
+.navbar-default .navbar-nav>li>a 
+{
+    color: #FFFFFF;
+    font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+}
+
+.navbar-default .navbar-nav>li>a
+{
+    color: #FFFFFF;
+    font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+}
+
+.navbar-default .navbar-brand 
+{
+    color: #FFFFFF;
+    font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+}
+
+.coll
+{
+    background:-webkit-linear-gradient(#000000,#989898);
+    background: -o-linear-gradient(#000000,#989898); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000000,#989898); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000000,#989898);
+    box-shadow: 0px 3px 5px #989898;
+}
+
+.coll a
+{
+    color:white;
+    font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+}
+
+.coll a:hover
+{
+     color: #000000;
+    background:-webkit-linear-gradient(#FFFFFF,#989898);
+    background: -o-linear-gradient(#FFFFFF,#989898); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF,#989898); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF,#989898);
+    box-shadow: 0px 5px 5px #000000;
+}
+
+.coll2
+{
+    background:-webkit-linear-gradient(#ffffff,#989898);
+    background: -o-linear-gradient(#ffffff,#989898); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff,#989898); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff,#989898);
+    box-shadow: 0px 3px 5px #989898;
+    border-color: #989898; 
+}
+
+.coll2 a
+{
+    color:white;
+    font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+}   
+
+.coll2 a:hover
+{
+     color: #ffffff;
+    background:-webkit-linear-gradient(#989898,#989898);
+    background: -o-linear-gradient(#989898,#989898); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#989898,#989898); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#989898,#989898);
+    box-shadow: 0px 5px 5px #ffffff;
+}
+
+.nav.past-main {
+    background-color:#fff;
+}
